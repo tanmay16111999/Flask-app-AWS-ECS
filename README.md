@@ -26,3 +26,10 @@ wait
 
 ## Access the application on port 8080
 http://0.0.0.0:8080 
+
+## Running app with docker compose and using nginx to serve trafic
+# git checkout chapter2 
+cd app
+docker-compose up --build
+
+# This will allow you to serve traffic via nginx
