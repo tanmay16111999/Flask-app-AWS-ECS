@@ -1,4 +1,4 @@
-name: Terraform apply on Dev Environment
+name: Terraform destroy
 
 on:
   push:
